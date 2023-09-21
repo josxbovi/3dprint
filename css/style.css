@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+@media all and (max-width: 767px){
+    #imgError404{
+        width: 50%;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width:991px){
+    #imgError404{
+        width:35%
+    }
+}
+
+@media all and (min-width: 992px){
+    #imgError404{
+        width: 25%;
+    }
+}
