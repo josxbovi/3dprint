@@ -8,6 +8,11 @@ main{
     flex-grow: 1;
 }
 
+.imgCarouselProductos{
+    height: 450px;
+    object-fit: cover;  /*el ancho se adapta a mi height*/
+}
+
 @media all and (max-width: 767px){
     #imgError404{
         width: 50%;
@@ -19,10 +24,18 @@ main{
     #imgError404{
         width:35%
     }
+    .imgCarouselProductos{
+        height: 500px;
+        object-position: 30%;
+    } 
 }
 
 @media all and (min-width: 992px){
     #imgError404{
         width: 25%;
+    }
+    .imgCarouselProductos{
+        height: 600px;
+        object-position: 0%;
     }
 }
